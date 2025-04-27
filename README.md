@@ -49,7 +49,7 @@ cd [Acesse o repositório]
 
  **6. Iniciar os Contêineres Docker Compose:**
 ```bash
-sudo docker compose up -d
+sudo docker-compose up -d
 ```
   - Este comando inicia os contêineres definidos no arquivo ``docker-compose.yml``.
   - A flag ``-d`` executa os contêineres em segundo plano (detached mode).
